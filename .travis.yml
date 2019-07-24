@@ -12,9 +12,9 @@ branches:
   only:
   - master
 
-before_script:
+# before_script:
   # - brew update
-  - brew upgrade xctool
+  # - brew upgrade xctool
 
 script:
   - xctool -project CIDemo.xcodeproj -scheme 'CIDemo' -sdk iphonesimulator build
