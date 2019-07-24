@@ -1,4 +1,4 @@
-osx_image: xcode10
+osx_image: xcode10.2
 language: objective-c
 sudo: false
 xcode_project: CIDemo.xcodeproj
@@ -12,13 +12,14 @@ branches:
   only:
   - master
 
-# before_script:
-  # - brew update
-  # - brew upgrade xctool
+before_script:
+  - env
+  - locale
+  - gem install xcpretty --no-document --quiet
+  - xcpretty --version
+  - xcodebuild -version
+  - xcodebuild -showsdks
 
 script:
-  - xctool -project CIDemo.xcodeproj -scheme 'CIDemo' -sdk iphonesimulator build
-  #- xcodebuild clean
-  #- xcodebuild -project CIDemo.xcodeproj -scheme CIDemo -destination 'platform=iOS Simulator,name=iPhone XS Max,OS=12.0'
-  #- xcodebuild -project CIDemo.xcodeproj -scheme CIDemo -sdk iphonesimulator -destination 'platform=iOS Simulator,name=iPhone 8,OS=latest'
-  #- xcodebuild clean test -workspace ApplepieDemo/ApplepieDemo.xcworkspace -scheme ApplepieDemo -destination 'platform=iOS Simulator,name=iPhone XS Max,OS=12.0' -enableCodeCoverage YES | bundle exec xcpretty
+  - set -o pipefail
+  - xcodebuild build -project CIDemo.xcodeproj -scheme 'CIDemo' -destination 'platform=iOS Simulator,name=iPhone XS' -configuration Debug CODE_SIGNING_ALLOWED=NO | xcpretty -c
