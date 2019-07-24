@@ -6,4 +6,6 @@ branches:
   - master
 
 script:
-  - xcodebuild -project CIDemo.xcodeproj -scheme "CIDemo" -sdk iphonesimulator -destination 'platform=iOS Simulator,name=iPhone 8,OS=latest'
+  - xcodebuild -project CIDemo.xcodeproj -scheme CIDemo -destination 'platform=iOS Simulator,name=iPhone XS Max,OS=12.0'
+  #- xcodebuild -project CIDemo.xcodeproj -scheme CIDemo -sdk iphonesimulator -destination 'platform=iOS Simulator,name=iPhone 8,OS=latest'
+  #- xcodebuild clean test -workspace ApplepieDemo/ApplepieDemo.xcworkspace -scheme ApplepieDemo -destination 'platform=iOS Simulator,name=iPhone XS Max,OS=12.0' -enableCodeCoverage YES | bundle exec xcpretty
