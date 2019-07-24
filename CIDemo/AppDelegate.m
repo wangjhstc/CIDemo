@@ -16,7 +16,8 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    aa
+    __unused NSString *aa = @"aa";
+    
     return YES;
 }
 
