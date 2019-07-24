@@ -25,7 +25,7 @@ script:
   - xcodebuild build -project CIDemo.xcodeproj -scheme 'CIDemo' -destination 'platform=iOS Simulator,name=iPhone XS' -configuration Debug CODE_SIGNING_ALLOWED=NO | xcpretty -c
 
   - echo test
-  - xcodebuild clean test -project CIDemo.xcodeproj -scheme 'CIDemoTests' -destination 'platform=iOS Simulator,name=iPhone XS' -configuration Debug -UseModernBuildSystem=NO CODE_SIGNING_ALLOWED=NO | xcpretty -c
+  - xcodebuild test -enableCodeCoverage YES -project CIDemo.xcodeproj -scheme 'CIDemoTests' -destination 'platform=iOS Simulator,name=iPhone XS' -configuration Debug -UseModernBuildSystem=NO CODE_SIGNING_ALLOWED=NO | xcpretty -c
 
 after_success:
   - bash <(curl -s https://codecov.io/bash)
