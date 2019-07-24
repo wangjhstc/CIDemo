@@ -23,3 +23,6 @@ before_script:
 script:
   - set -o pipefail
   - xcodebuild build -project CIDemo.xcodeproj -scheme 'CIDemo' -destination 'platform=iOS Simulator,name=iPhone XS' -configuration Debug CODE_SIGNING_ALLOWED=NO | xcpretty -c
+
+after_success:
+  - bash <(curl -s https://codecov.io/bash)
