@@ -13,7 +13,20 @@
 		8AE3D48422E7F63900FAF77E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8AE3D48322E7F63900FAF77E /* Assets.xcassets */; };
 		8AE3D48722E7F63900FAF77E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8AE3D48522E7F63900FAF77E /* LaunchScreen.storyboard */; };
 		8AE3D48A22E7F63900FAF77E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AE3D48922E7F63900FAF77E /* main.m */; };
+		8AE3D49722E84A9700FAF77E /* CIDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AE3D49622E84A9700FAF77E /* CIDemoTests.m */; };
+		8AE3D4A022E84BD800FAF77E /* ActionUnit.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AE3D49F22E84BD800FAF77E /* ActionUnit.m */; };
+		8AE3D4A222E84BED00FAF77E /* ActionUnitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AE3D4A122E84BED00FAF77E /* ActionUnitTests.m */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8AE3D49922E84A9700FAF77E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8AE3D46F22E7F63800FAF77E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8AE3D47622E7F63800FAF77E;
+			remoteInfo = CIDemo;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		8AE3D47722E7F63800FAF77E /* CIDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CIDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -26,10 +39,23 @@
 		8AE3D48622E7F63900FAF77E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8AE3D48822E7F63900FAF77E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8AE3D48922E7F63900FAF77E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8AE3D49422E84A9700FAF77E /* CIDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CIDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8AE3D49622E84A9700FAF77E /* CIDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CIDemoTests.m; sourceTree = "<group>"; };
+		8AE3D49822E84A9700FAF77E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8AE3D49E22E84BD800FAF77E /* ActionUnit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ActionUnit.h; sourceTree = "<group>"; };
+		8AE3D49F22E84BD800FAF77E /* ActionUnit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ActionUnit.m; sourceTree = "<group>"; };
+		8AE3D4A122E84BED00FAF77E /* ActionUnitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ActionUnitTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		8AE3D47422E7F63800FAF77E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AE3D49122E84A9700FAF77E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -43,6 +69,7 @@
 			isa = PBXGroup;
 			children = (
 				8AE3D47922E7F63800FAF77E /* CIDemo */,
+				8AE3D49522E84A9700FAF77E /* CIDemoTests */,
 				8AE3D47822E7F63800FAF77E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -51,6 +78,7 @@
 			isa = PBXGroup;
 			children = (
 				8AE3D47722E7F63800FAF77E /* CIDemo.app */,
+				8AE3D49422E84A9700FAF77E /* CIDemoTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -67,8 +95,20 @@
 				8AE3D48522E7F63900FAF77E /* LaunchScreen.storyboard */,
 				8AE3D48822E7F63900FAF77E /* Info.plist */,
 				8AE3D48922E7F63900FAF77E /* main.m */,
+				8AE3D49E22E84BD800FAF77E /* ActionUnit.h */,
+				8AE3D49F22E84BD800FAF77E /* ActionUnit.m */,
 			);
 			path = CIDemo;
+			sourceTree = "<group>";
+		};
+		8AE3D49522E84A9700FAF77E /* CIDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				8AE3D49622E84A9700FAF77E /* CIDemoTests.m */,
+				8AE3D49822E84A9700FAF77E /* Info.plist */,
+				8AE3D4A122E84BED00FAF77E /* ActionUnitTests.m */,
+			);
+			path = CIDemoTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -91,6 +131,24 @@
 			productReference = 8AE3D47722E7F63800FAF77E /* CIDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
+		8AE3D49322E84A9700FAF77E /* CIDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8AE3D49D22E84A9700FAF77E /* Build configuration list for PBXNativeTarget "CIDemoTests" */;
+			buildPhases = (
+				8AE3D49022E84A9700FAF77E /* Sources */,
+				8AE3D49122E84A9700FAF77E /* Frameworks */,
+				8AE3D49222E84A9700FAF77E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8AE3D49A22E84A9700FAF77E /* PBXTargetDependency */,
+			);
+			name = CIDemoTests;
+			productName = CIDemoTests;
+			productReference = 8AE3D49422E84A9700FAF77E /* CIDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -102,6 +160,10 @@
 				TargetAttributes = {
 					8AE3D47622E7F63800FAF77E = {
 						CreatedOnToolsVersion = 10.2.1;
+					};
+					8AE3D49322E84A9700FAF77E = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 8AE3D47622E7F63800FAF77E;
 					};
 				};
 			};
@@ -119,6 +181,7 @@
 			projectRoot = "";
 			targets = (
 				8AE3D47622E7F63800FAF77E /* CIDemo */,
+				8AE3D49322E84A9700FAF77E /* CIDemoTests */,
 			);
 		};
 /* End PBXProject section */
@@ -134,6 +197,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		8AE3D49222E84A9700FAF77E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -142,12 +212,30 @@
 			buildActionMask = 2147483647;
 			files = (
 				8AE3D47F22E7F63800FAF77E /* ViewController.m in Sources */,
+				8AE3D4A022E84BD800FAF77E /* ActionUnit.m in Sources */,
 				8AE3D48A22E7F63900FAF77E /* main.m in Sources */,
 				8AE3D47C22E7F63800FAF77E /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		8AE3D49022E84A9700FAF77E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AE3D49722E84A9700FAF77E /* CIDemoTests.m in Sources */,
+				8AE3D4A222E84BED00FAF77E /* ActionUnitTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8AE3D49A22E84A9700FAF77E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8AE3D47622E7F63800FAF77E /* CIDemo */;
+			targetProxy = 8AE3D49922E84A9700FAF77E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		8AE3D48022E7F63800FAF77E /* Main.storyboard */ = {
@@ -315,6 +403,42 @@
 			};
 			name = Release;
 		};
+		8AE3D49B22E84A9700FAF77E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CIDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sparrow.CIDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CIDemo.app/CIDemo";
+			};
+			name = Debug;
+		};
+		8AE3D49C22E84A9700FAF77E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CIDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sparrow.CIDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CIDemo.app/CIDemo";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -332,6 +456,15 @@
 			buildConfigurations = (
 				8AE3D48E22E7F63900FAF77E /* Debug */,
 				8AE3D48F22E7F63900FAF77E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8AE3D49D22E84A9700FAF77E /* Build configuration list for PBXNativeTarget "CIDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8AE3D49B22E84A9700FAF77E /* Debug */,
+				8AE3D49C22E84A9700FAF77E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
