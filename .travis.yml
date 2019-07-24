@@ -1,4 +1,4 @@
 osx_image: xcode10.2.1
 language: objective-c
 xcode_project: CIDemo.xcodeproj
-script: xcodebuild -project CIDemo.xcodeproj -scheme "CIDemo" -sdk iphonesimulator -destination 'platform=iOS Simulator,name=iPhone 6,OS=latest'
+script: xcodebuild -project CIDemo.xcodeproj -scheme "CIDemo" -sdk iphonesimulator -destination 'platform=iOS Simulator,name=iPhone 8,OS=latest'
