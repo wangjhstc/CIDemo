@@ -36,6 +36,7 @@
 		8A93DE4F23ABB1C100872025 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8AE3D48022E7F63800FAF77E /* Main.storyboard */; };
 		8A93DE7123ABB5E500872025 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A93DE7023ABB5E500872025 /* FirstViewController.m */; };
 		8A93DE7223ABC23600872025 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A93DE7023ABB5E500872025 /* FirstViewController.m */; };
+		8A93DEDA23B34C4D00872025 /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A93DED923B34C4D00872025 /* ThirdViewController.m */; };
 		8AE3D47C22E7F63800FAF77E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AE3D47B22E7F63800FAF77E /* AppDelegate.m */; };
 		8AE3D47F22E7F63800FAF77E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AE3D47E22E7F63800FAF77E /* ViewController.m */; };
 		8AE3D48222E7F63800FAF77E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8AE3D48022E7F63800FAF77E /* Main.storyboard */; };
@@ -77,6 +78,8 @@
 		8A93DE6F23ABB5E500872025 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
 		8A93DE7023ABB5E500872025 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
 		8A93DEC223ACCD9100872025 /* 支付帮.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "支付帮.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A93DED823B34C4D00872025 /* ThirdViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
+		8A93DED923B34C4D00872025 /* ThirdViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
 		8AE3D47722E7F63800FAF77E /* 支付帮.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "支付帮.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8AE3D47A22E7F63800FAF77E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		8AE3D47B22E7F63800FAF77E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -216,6 +219,8 @@
 				8AE3D49F22E84BD800FAF77E /* ActionUnit.m */,
 				8A93DE6F23ABB5E500872025 /* FirstViewController.h */,
 				8A93DE7023ABB5E500872025 /* FirstViewController.m */,
+				8A93DED823B34C4D00872025 /* ThirdViewController.h */,
+				8A93DED923B34C4D00872025 /* ThirdViewController.m */,
 			);
 			path = CIDemo;
 			sourceTree = "<group>";
@@ -437,6 +442,7 @@
 			files = (
 				8AE3D47F22E7F63800FAF77E /* ViewController.m in Sources */,
 				8AE3D4A022E84BD800FAF77E /* ActionUnit.m in Sources */,
+				8A93DEDA23B34C4D00872025 /* ThirdViewController.m in Sources */,
 				8A93DE7123ABB5E500872025 /* FirstViewController.m in Sources */,
 				8AE3D48A22E7F63900FAF77E /* main.m in Sources */,
 				8AE3D47C22E7F63800FAF77E /* AppDelegate.m in Sources */,
