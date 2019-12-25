@@ -1,0 +1,49 @@
+# This file contains the fastlane.tools configuration
+# You can find the documentation at https://docs.fastlane.tools
+#
+# For a list of all available actions, check out
+#
+#     https://docs.fastlane.tools/actions
+#
+# For a list of all available plugins, check out
+#
+#     https://docs.fastlane.tools/plugins/available-plugins
+#
+
+# Uncomment the line if you want fastlane to automatically update itself
+# update_fastlane
+
+default_platform(:ios)
+
+platform :ios do
+  desc "测试环境正式包"
+  lane :test_release do |op|
+    increment_version_number(version_number:op[:vnum]) #设置版本号
+    increment_build_number(build_number:op[:bnum]) #设置Build号
+
+    # automatic_code_signing(
+    #   code_sign_identity: "iPhone Distribution",
+    #   profile_name: "Adhoc(Live)",
+    #   bundle_identifier: "com.xxx.xyz"
+    # )
+
+    gym(
+#      use_legacy_build_api:true,
+      clean:true,
+      silent:true,
+      clean:true,
+      # inclue_bitcode:false,
+      configuration:"Release",
+      project:"CIDemo.xcodeproj",
+      scheme:"CIDemo",
+      output_directory: "/Users/MicroSparrow/Sparrow/01_Code/01_iOS/CIDemo_fastlane/ipa", # ipa输出目录
+      output_name: "CIDemo.ipa",
+      buildlog_path:"/Users/MicroSparrow/Sparrow/01_Code/01_iOS/CIDemo_fastlane/log",
+      export_method: "app-store",#打包所选的种类（就是App Store，生产测试，企业，开发测试那四种）， app-store,ad-hoc,enterprise,development
+      codesigning_identity: "iPhone Distribution: Handcool information technology co., LTD (EFTVKH44JM)",  # 代码签名证书
+
+      # export_options:"~/Users/MicroSparrow/Sparrow/01_Code/01_iOS/CIDemo_fastlane/plist/export.plist"
+    )
+  end
+
+end

@@ -6,7 +6,36 @@
 	objectVersion = 50;
 	objects = {
 
+/* Begin PBXAggregateTarget section */
+		8A93DE3C23AB7DF600872025 /* CodeReview */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 8A93DE3D23AB7DF600872025 /* Build configuration list for PBXAggregateTarget "CodeReview" */;
+			buildPhases = (
+				8A93DE4023AB7DFE00872025 /* ShellScript */,
+			);
+			dependencies = (
+			);
+			name = CodeReview;
+			productName = CodeReview;
+		};
+/* End PBXAggregateTarget section */
+
 /* Begin PBXBuildFile section */
+		19c2f9ed2bc6fa5b0722b9cc /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8AE3D48022E7F63800FAF77E /* Main.storyboard */; };
+		27912a7c5f69092224b85d57 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8AE3D48322E7F63900FAF77E /* Assets.xcassets */; };
+		362e895db8ea8d2253554a4b /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7e0061cac213001c71a75c42 /* CFNetwork.framework */; };
+		47b02bb37f998e26c0de3705 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8AE3D48522E7F63900FAF77E /* LaunchScreen.storyboard */; };
+		8A93DE4323ABB0C700872025 /* calabash.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A93DE4223ABB0C700872025 /* calabash.framework */; };
+		8A93DE4623ABB1C100872025 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AE3D47E22E7F63800FAF77E /* ViewController.m */; };
+		8A93DE4723ABB1C100872025 /* ActionUnit.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AE3D49F22E84BD800FAF77E /* ActionUnit.m */; };
+		8A93DE4823ABB1C100872025 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AE3D48922E7F63900FAF77E /* main.m */; };
+		8A93DE4923ABB1C100872025 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AE3D47B22E7F63800FAF77E /* AppDelegate.m */; };
+		8A93DE4B23ABB1C100872025 /* calabash.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A93DE4223ABB0C700872025 /* calabash.framework */; };
+		8A93DE4D23ABB1C100872025 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8AE3D48522E7F63900FAF77E /* LaunchScreen.storyboard */; };
+		8A93DE4E23ABB1C100872025 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8AE3D48322E7F63900FAF77E /* Assets.xcassets */; };
+		8A93DE4F23ABB1C100872025 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8AE3D48022E7F63800FAF77E /* Main.storyboard */; };
+		8A93DE7123ABB5E500872025 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A93DE7023ABB5E500872025 /* FirstViewController.m */; };
+		8A93DE7223ABC23600872025 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A93DE7023ABB5E500872025 /* FirstViewController.m */; };
 		8AE3D47C22E7F63800FAF77E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AE3D47B22E7F63800FAF77E /* AppDelegate.m */; };
 		8AE3D47F22E7F63800FAF77E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AE3D47E22E7F63800FAF77E /* ViewController.m */; };
 		8AE3D48222E7F63800FAF77E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8AE3D48022E7F63800FAF77E /* Main.storyboard */; };
@@ -16,6 +45,12 @@
 		8AE3D49722E84A9700FAF77E /* CIDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AE3D49622E84A9700FAF77E /* CIDemoTests.m */; };
 		8AE3D4A022E84BD800FAF77E /* ActionUnit.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AE3D49F22E84BD800FAF77E /* ActionUnit.m */; };
 		8AE3D4A222E84BED00FAF77E /* ActionUnitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AE3D4A122E84BED00FAF77E /* ActionUnitTests.m */; };
+		8e53b98d6def013645e28662 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AE3D47B22E7F63800FAF77E /* AppDelegate.m */; };
+		8e7a7ea5d94eca2b448f489c /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A93DE7023ABB5E500872025 /* FirstViewController.m */; };
+		d34f9a6efda45a23e5387a49 /* ActionUnit.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AE3D49F22E84BD800FAF77E /* ActionUnit.m */; };
+		d8c33ee9b005d0333c987292 /* calabash.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A93DE4223ABB0C700872025 /* calabash.framework */; };
+		ea7542b67ece74bb5cd772ad /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AE3D47E22E7F63800FAF77E /* ViewController.m */; };
+		faef63efcea4af5a49fd9770 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AE3D48922E7F63900FAF77E /* main.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,7 +64,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		8AE3D47722E7F63800FAF77E /* CIDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CIDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7e0061cac213001c71a75c42 /* CFNetwork.framework */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		8A93DE4223ABB0C700872025 /* calabash.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = calabash.framework; sourceTree = SOURCE_ROOT; };
+		8A93DE5323ABB1C100872025 /* CIDemo-cal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CIDemo-cal.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A93DE5423ABB1CA00872025 /* CIDemo-cal-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "CIDemo-cal-Info.plist"; path = "/Users/MicroSparrow/Sparrow/01_Code/01_iOS/CIDemo/CIDemo-cal-Info.plist"; sourceTree = "<absolute>"; };
+		8A93DE6623ABB52400872025 /* sample.feature */ = {isa = PBXFileReference; lastKnownFileType = text; path = sample.feature; sourceTree = "<group>"; };
+		8A93DE6823ABB52400872025 /* sample_steps.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = sample_steps.rb; sourceTree = "<group>"; };
+		8A93DE6A23ABB52400872025 /* 01_launch.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = 01_launch.rb; sourceTree = "<group>"; };
+		8A93DE6C23ABB52400872025 /* cucumber.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = cucumber.rb; sourceTree = "<group>"; };
+		8A93DE6D23ABB52400872025 /* env.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = env.rb; sourceTree = "<group>"; };
+		8A93DE6E23ABB52400872025 /* dry_run.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = dry_run.rb; sourceTree = "<group>"; };
+		8A93DE6F23ABB5E500872025 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		8A93DE7023ABB5E500872025 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		8A93DEC223ACCD9100872025 /* 支付帮.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "支付帮.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8AE3D47722E7F63800FAF77E /* 支付帮.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "支付帮.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8AE3D47A22E7F63800FAF77E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		8AE3D47B22E7F63800FAF77E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		8AE3D47D22E7F63800FAF77E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
@@ -48,10 +96,19 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		8A93DE4A23ABB1C100872025 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A93DE4B23ABB1C100872025 /* calabash.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8AE3D47422E7F63800FAF77E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8A93DE4323ABB0C700872025 /* calabash.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,23 +119,83 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		d5cb78c33833e5e378c2265e /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				d8c33ee9b005d0333c987292 /* calabash.framework in Frameworks */,
+				362e895db8ea8d2253554a4b /* CFNetwork.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8A93DE4123ABB0AE00872025 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8A93DE4223ABB0C700872025 /* calabash.framework */,
+				7e0061cac213001c71a75c42 /* CFNetwork.framework */,
+			);
+			path = Frameworks;
+			sourceTree = "<group>";
+		};
+		8A93DE6523ABB52400872025 /* features */ = {
+			isa = PBXGroup;
+			children = (
+				8A93DE6623ABB52400872025 /* sample.feature */,
+				8A93DE6723ABB52400872025 /* steps */,
+				8A93DE6923ABB52400872025 /* support */,
+			);
+			path = features;
+			sourceTree = "<group>";
+		};
+		8A93DE6723ABB52400872025 /* steps */ = {
+			isa = PBXGroup;
+			children = (
+				8A93DE6823ABB52400872025 /* sample_steps.rb */,
+			);
+			path = steps;
+			sourceTree = "<group>";
+		};
+		8A93DE6923ABB52400872025 /* support */ = {
+			isa = PBXGroup;
+			children = (
+				8A93DE6A23ABB52400872025 /* 01_launch.rb */,
+				8A93DE6B23ABB52400872025 /* patches */,
+				8A93DE6D23ABB52400872025 /* env.rb */,
+				8A93DE6E23ABB52400872025 /* dry_run.rb */,
+			);
+			path = support;
+			sourceTree = "<group>";
+		};
+		8A93DE6B23ABB52400872025 /* patches */ = {
+			isa = PBXGroup;
+			children = (
+				8A93DE6C23ABB52400872025 /* cucumber.rb */,
+			);
+			path = patches;
+			sourceTree = "<group>";
+		};
 		8AE3D46E22E7F63800FAF77E = {
 			isa = PBXGroup;
 			children = (
+				8A93DE6523ABB52400872025 /* features */,
 				8AE3D47922E7F63800FAF77E /* CIDemo */,
 				8AE3D49522E84A9700FAF77E /* CIDemoTests */,
+				8A93DE4123ABB0AE00872025 /* Frameworks */,
 				8AE3D47822E7F63800FAF77E /* Products */,
+				8A93DE5423ABB1CA00872025 /* CIDemo-cal-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
 		8AE3D47822E7F63800FAF77E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8AE3D47722E7F63800FAF77E /* CIDemo.app */,
+				8AE3D47722E7F63800FAF77E /* 支付帮.app */,
 				8AE3D49422E84A9700FAF77E /* CIDemoTests.xctest */,
+				8A93DE5323ABB1C100872025 /* CIDemo-cal.app */,
+				8A93DEC223ACCD9100872025 /* 支付帮.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -97,6 +214,8 @@
 				8AE3D48922E7F63900FAF77E /* main.m */,
 				8AE3D49E22E84BD800FAF77E /* ActionUnit.h */,
 				8AE3D49F22E84BD800FAF77E /* ActionUnit.m */,
+				8A93DE6F23ABB5E500872025 /* FirstViewController.h */,
+				8A93DE7023ABB5E500872025 /* FirstViewController.m */,
 			);
 			path = CIDemo;
 			sourceTree = "<group>";
@@ -114,6 +233,40 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		28db2a5d8d0f842750bfaa08 /* CIDemo-cal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6721cc2b3371c9709bf11730 /* Build configuration list for PBXNativeTarget "CIDemo-cal" */;
+			buildPhases = (
+				283c1b79e14e07fd031181f9 /* Sources */,
+				d5cb78c33833e5e378c2265e /* Frameworks */,
+				f614a30e1d16495a4b0c1358 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CIDemo-cal";
+			productName = "CIDemo-cal";
+			productReference = 8A93DEC223ACCD9100872025 /* 支付帮.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8A93DE4423ABB1C100872025 /* CIDemo-cal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A93DE5023ABB1C100872025 /* Build configuration list for PBXNativeTarget "CIDemo-cal" */;
+			buildPhases = (
+				8A93DE4523ABB1C100872025 /* Sources */,
+				8A93DE4A23ABB1C100872025 /* Frameworks */,
+				8A93DE4C23ABB1C100872025 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CIDemo-cal";
+			productName = CIDemo;
+			productReference = 8A93DE5323ABB1C100872025 /* CIDemo-cal.app */;
+			productType = "com.apple.product-type.application";
+		};
 		8AE3D47622E7F63800FAF77E /* CIDemo */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8AE3D48D22E7F63900FAF77E /* Build configuration list for PBXNativeTarget "CIDemo" */;
@@ -128,7 +281,7 @@
 			);
 			name = CIDemo;
 			productName = CIDemo;
-			productReference = 8AE3D47722E7F63800FAF77E /* CIDemo.app */;
+			productReference = 8AE3D47722E7F63800FAF77E /* 支付帮.app */;
 			productType = "com.apple.product-type.application";
 		};
 		8AE3D49322E84A9700FAF77E /* CIDemoTests */ = {
@@ -155,9 +308,13 @@
 		8AE3D46F22E7F63800FAF77E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				DefaultBuildSystemTypeForWorkspace = Original;
 				LastUpgradeCheck = 1020;
 				ORGANIZATIONNAME = sparrow;
 				TargetAttributes = {
+					8A93DE3C23AB7DF600872025 = {
+						CreatedOnToolsVersion = 11.2;
+					};
 					8AE3D47622E7F63800FAF77E = {
 						CreatedOnToolsVersion = 10.2.1;
 					};
@@ -182,11 +339,24 @@
 			targets = (
 				8AE3D47622E7F63800FAF77E /* CIDemo */,
 				8AE3D49322E84A9700FAF77E /* CIDemoTests */,
+				8A93DE3C23AB7DF600872025 /* CodeReview */,
+				8A93DE4423ABB1C100872025 /* CIDemo-cal */,
+				28db2a5d8d0f842750bfaa08 /* CIDemo-cal */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		8A93DE4C23ABB1C100872025 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A93DE4D23ABB1C100872025 /* LaunchScreen.storyboard in Resources */,
+				8A93DE4E23ABB1C100872025 /* Assets.xcassets in Resources */,
+				8A93DE4F23ABB1C100872025 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8AE3D47522E7F63800FAF77E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -204,15 +374,70 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		f614a30e1d16495a4b0c1358 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47b02bb37f998e26c0de3705 /* LaunchScreen.storyboard in Resources */,
+				27912a7c5f69092224b85d57 /* Assets.xcassets in Resources */,
+				19c2f9ed2bc6fa5b0722b9cc /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		8A93DE4023AB7DFE00872025 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "source ~/.bash_profile\n\ncd ${PROJECT_DIR}\n\nxcodebuild clean\n\nxcodebuild -project CIDemo.xcodeproj -configuration Debug -scheme CIDemo build | xcpretty -r json-compilation-database -o compile_commands.json\n#-r oclintRule\noclint-json-compilation-database  -- -report-type xcode\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
+		283c1b79e14e07fd031181f9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ea7542b67ece74bb5cd772ad /* ViewController.m in Sources */,
+				d34f9a6efda45a23e5387a49 /* ActionUnit.m in Sources */,
+				8e7a7ea5d94eca2b448f489c /* FirstViewController.m in Sources */,
+				faef63efcea4af5a49fd9770 /* main.m in Sources */,
+				8e53b98d6def013645e28662 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A93DE4523ABB1C100872025 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A93DE4623ABB1C100872025 /* ViewController.m in Sources */,
+				8A93DE4723ABB1C100872025 /* ActionUnit.m in Sources */,
+				8A93DE7223ABC23600872025 /* FirstViewController.m in Sources */,
+				8A93DE4823ABB1C100872025 /* main.m in Sources */,
+				8A93DE4923ABB1C100872025 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8AE3D47322E7F63800FAF77E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				8AE3D47F22E7F63800FAF77E /* ViewController.m in Sources */,
 				8AE3D4A022E84BD800FAF77E /* ActionUnit.m in Sources */,
+				8A93DE7123ABB5E500872025 /* FirstViewController.m in Sources */,
 				8AE3D48A22E7F63900FAF77E /* main.m in Sources */,
 				8AE3D47C22E7F63800FAF77E /* AppDelegate.m in Sources */,
 			);
@@ -257,6 +482,100 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		09141df9af74067f3586d3b6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = EFTVKH44JM;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"\"$(SRCROOT)\"",
+				);
+				INFOPLIST_FILE = CIDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-force_load",
+					"\"$(SRCROOT)/calabash.framework/calabash\"",
+					"-lstdc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cn.icardx.app;
+				PRODUCT_NAME = "支付帮";
+				PROVISIONING_PROFILE_SPECIFIER = icardx_distribution;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8A93DE3E23AB7DF600872025 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMPILER_INDEX_STORE_ENABLE = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8A93DE3F23AB7DF600872025 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMPILER_INDEX_STORE_ENABLE = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8A93DE5123ABB1C100872025 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = EFTVKH44JM;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "CIDemo-cal-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cn.icardx.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = icardx_distribution;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8A93DE5223ABB1C100872025 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = EFTVKH44JM;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "CIDemo-cal-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cn.icardx.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = icardx_distribution;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		8AE3D48B22E7F63900FAF77E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -373,15 +692,22 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = X278PU43FN;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				COMPILER_INDEX_STORE_ENABLE = NO;
+				DEVELOPMENT_TEAM = EFTVKH44JM;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = CIDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = org.noear.Calculator;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.icardx.app;
+				PRODUCT_NAME = "支付帮";
+				PROVISIONING_PROFILE_SPECIFIER = icardx_distribution;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -390,15 +716,22 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = X278PU43FN;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				COMPILER_INDEX_STORE_ENABLE = NO;
+				DEVELOPMENT_TEAM = EFTVKH44JM;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = CIDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = org.noear.Calculator;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.icardx.app;
+				PRODUCT_NAME = "支付帮";
+				PROVISIONING_PROFILE_SPECIFIER = icardx_distribution;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -439,9 +772,66 @@
 			};
 			name = Release;
 		};
+		9ee59286f027220fc9cf9117 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = EFTVKH44JM;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"\"$(SRCROOT)\"",
+				);
+				INFOPLIST_FILE = CIDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-force_load",
+					"\"$(SRCROOT)/calabash.framework/calabash\"",
+					"-lstdc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cn.icardx.app;
+				PRODUCT_NAME = "支付帮";
+				PROVISIONING_PROFILE_SPECIFIER = icardx_distribution;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		6721cc2b3371c9709bf11730 /* Build configuration list for PBXNativeTarget "CIDemo-cal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9ee59286f027220fc9cf9117 /* Debug */,
+				09141df9af74067f3586d3b6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8A93DE3D23AB7DF600872025 /* Build configuration list for PBXAggregateTarget "CodeReview" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A93DE3E23AB7DF600872025 /* Debug */,
+				8A93DE3F23AB7DF600872025 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8A93DE5023ABB1C100872025 /* Build configuration list for PBXNativeTarget "CIDemo-cal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A93DE5123ABB1C100872025 /* Debug */,
+				8A93DE5223ABB1C100872025 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		8AE3D47222E7F63800FAF77E /* Build configuration list for PBXProject "CIDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

@@ -8,8 +8,15 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
 
+@interface ViewController : UIViewController
+/*! name */
+@property (nonatomic, copy) NSString *name;
+
+/*! name */
+@property (nonatomic, copy) NSString *name1;
+
+/*! name */
+@property (nonatomic, copy) NSString *Fame2;
 
 @end
-

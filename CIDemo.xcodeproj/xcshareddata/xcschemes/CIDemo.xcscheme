@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "8AE3D47622E7F63800FAF77E"
-               BuildableName = "CIDemo.app"
+               BuildableName = "&#x652f;&#x4ed8;&#x5e2e;.app"
                BlueprintName = "CIDemo"
                ReferencedContainer = "container:CIDemo.xcodeproj">
             </BuildableReference>
@@ -27,6 +27,15 @@
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "8AE3D47622E7F63800FAF77E"
+            BuildableName = "&#x652f;&#x4ed8;&#x5e2e;.app"
+            BlueprintName = "CIDemo"
+            ReferencedContainer = "container:CIDemo.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <Testables>
          <TestableReference
             skipped = "NO">
@@ -39,17 +48,6 @@
             </BuildableReference>
          </TestableReference>
       </Testables>
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "8AE3D47622E7F63800FAF77E"
-            BuildableName = "CIDemo.app"
-            BlueprintName = "CIDemo"
-            ReferencedContainer = "container:CIDemo.xcodeproj">
-         </BuildableReference>
-      </MacroExpansion>
-      <AdditionalOptions>
-      </AdditionalOptions>
    </TestAction>
    <LaunchAction
       buildConfiguration = "Debug"
@@ -66,13 +64,11 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "8AE3D47622E7F63800FAF77E"
-            BuildableName = "CIDemo.app"
+            BuildableName = "&#x652f;&#x4ed8;&#x5e2e;.app"
             BlueprintName = "CIDemo"
             ReferencedContainer = "container:CIDemo.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
-      <AdditionalOptions>
-      </AdditionalOptions>
    </LaunchAction>
    <ProfileAction
       buildConfiguration = "Release"
@@ -85,7 +81,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "8AE3D47622E7F63800FAF77E"
-            BuildableName = "CIDemo.app"
+            BuildableName = "&#x652f;&#x4ed8;&#x5e2e;.app"
             BlueprintName = "CIDemo"
             ReferencedContainer = "container:CIDemo.xcodeproj">
          </BuildableReference>

@@ -8,9 +8,27 @@
 
 #import "ActionUnit.h"
 
+
 @implementation ActionUnit
 
-- (void)setEnvirment:(NSInteger)envirment {
+- (void)testClangFormat
+{
+    int a = 5;
+
+    switch (a) {
+        case 1: {
+            int b = 3;
+        } break;
+        case 5: {
+        } break;
+
+        default:
+            break;
+    }
+}
+
+- (void)setEnvirment:(NSInteger)envirment
+{
     NSLog(@"aa");
 }
 
